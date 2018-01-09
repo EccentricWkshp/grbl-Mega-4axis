@@ -4,7 +4,9 @@ _Click the `Release` tab to download pre-compiled `.hex` files for regular GRBL 
 ***
 
 GRBL Mega 6 Axis Pinouts:
+
 Step:
+
 X: D24
 Y: D25
 Z: D26
@@ -13,6 +15,7 @@ B: D28
 C: D29
 
 Direction:
+
 X: D30
 Y: D31
 Z: D32
@@ -21,6 +24,7 @@ B: D34
 C: D35
 
 Limits:
+
 X: D10
 Y: D11
 Z: D12
