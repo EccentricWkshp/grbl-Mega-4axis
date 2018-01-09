@@ -1,7 +1,44 @@
 ![GitHub Logo](https://github.com/gnea/gnea-Media/blob/master/Grbl%20Logo/Grbl%20Logo%20250px.png?raw=true)
 ***
-_Click the `Release` tab to download pre-compiled `.hex` files or just [click here](https://github.com/gnea/grbl/releases)_
+_Click the `Release` tab to download pre-compiled `.hex` files for regular GRBL or just [click here](https://github.com/gnea/grbl/releases)_
 ***
+
+GRBL Mega 6 Axis Pinouts:
+Step:
+X: D24
+Y: D25
+Z: D26
+A: D27
+B: D28
+C: D29
+
+Direction:
+X: D30
+Y: D31
+Z: D32
+A: D33
+B: D34
+C: D35
+
+Limits:
+X: D10
+Y: D11
+Z: D12
+A: D53
+B: D52
+C: D51
+
+Abort/Reset: A8
+Hold: A9
+Cycle Start/Resume: A10
+Safety Door: A11
+Probe: A15
+Spindle Direction: D5
+Spindle Enabled: D6
+Spindle Speed (PWM): D7
+Coolant Flood: D8
+Coolant Mist: D9
+
 
 Grbl is a no-compromise, high performance, low cost alternative to parallel-port-based motion control for CNC milling. This version of Grbl runs on an Arduino Mega2560 only.
 
@@ -81,5 +118,3 @@ List of Supported G-Codes in Grbl v1.1:
 
 -------------
 Grbl is an open-source project and fueled by the free-time of our intrepid administrators and altruistic users. If you'd like to donate, all proceeds will be used to help fund supporting hardware and testing equipment. Thank you!
-
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CUGXJHXA36BYW)
