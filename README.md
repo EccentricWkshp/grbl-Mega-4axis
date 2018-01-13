@@ -32,16 +32,17 @@ A: D53
 B: D52
 C: D51
 
-Abort/Reset: A8
-Hold: A9
-Cycle Start/Resume: A10
-Safety Door: A11
-Probe: A15
-Spindle Direction: D5
-Spindle Enabled: D6
-Spindle Speed (PWM): D7
-Coolant Flood: D8
-Coolant Mist: D9
+Abort/Reset: A8/
+Hold: A9/
+Cycle Start/Resume: A10/
+Safety Door: A11/
+Probe: A15/
+Spindle Direction: D5/
+Spindle Enabled: D6/
+Spindle Speed (PWM): D7/
+Coolant Flood: D8/
+Coolant Mist: D9/
+Stepper Enable: D13
 
 
 Grbl is a no-compromise, high performance, low cost alternative to parallel-port-based motion control for CNC milling. This version of Grbl runs on an Arduino Mega2560 only.
